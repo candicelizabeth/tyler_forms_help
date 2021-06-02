@@ -1,0 +1,4 @@
+<h1>This is the Model's index page.</h1>
+<% @blogs.each do |blog| %>
+<a href="/blogs/<%=blog.id%>"><%= blog.title %></a>
+<% end %>
